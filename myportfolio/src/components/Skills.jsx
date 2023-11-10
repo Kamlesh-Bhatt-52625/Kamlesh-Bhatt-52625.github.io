@@ -36,7 +36,7 @@ export const Skills = () => {
             {" "}
             <SiJavascript
               className="skills-card-img"
-              color="rgb(106, 175, 228)"
+              color="var(--light-red)"
             />{" "}
             JavaScript
           </div>
@@ -46,14 +46,14 @@ export const Skills = () => {
             {" "}
             <SiReact
               className="skills-card-img"
-              color="rgb(106, 175, 228)"
+              color="var(--light-red)"
             />{" "}
             ReactJs
           </div>
         </li>
         <li className="skills-card">
           <div className="skills-card-name">
-            <SiRedux className="skills-card-img" color="rgb(106, 175, 228)" />{" "}
+            <SiRedux className="skills-card-img" color="var(--light-red)" />{" "}
             Redux
           </div>
         </li>
@@ -62,7 +62,7 @@ export const Skills = () => {
             {" "}
             <SiExpress
               className="skills-card-img"
-              color="rgb(106, 175, 228)"
+              color="var(--light-red)"
             />{" "}
             ExpressJs
           </div>
@@ -72,7 +72,7 @@ export const Skills = () => {
             {" "}
             <FaNodeJs
               className="skills-card-img"
-              color="rgb(106, 175, 228)"
+              color="var(--light-red)"
             />{" "}
             Node.js
           </div>
@@ -82,21 +82,20 @@ export const Skills = () => {
             {" "}
             <DiMongodb
               className="skills-card-img"
-              color="rgb(106, 175, 228)"
+              color="var(--light-red)"
             />{" "}
             MongoDb
           </div>
         </li>
         <li className="skills-card">
           <div className="skills-card-name">
-            <DiHtml5 className="skills-card-img" color="rgb(106, 175, 228)" />{" "}
+            <DiHtml5 className="skills-card-img" color="var(--light-red)" />{" "}
             HTML
           </div>
         </li>
         <li className="skills-card">
           <div className="skills-card-name">
-            <SiCss3 className="skills-card-img" color="rgb(106, 175, 228)" />{" "}
-            CSS
+            <SiCss3 className="skills-card-img" color="var(--light-red)" /> CSS
           </div>
         </li>
         <li className="skills-card">
@@ -104,7 +103,7 @@ export const Skills = () => {
             <FaJava
               className="skills-card-img"
               fontSize={"27px"}
-              color="rgb(106, 175, 228)"
+              color="var(--light-red)"
             />{" "}
             Java
           </div>
@@ -114,17 +113,14 @@ export const Skills = () => {
             <BiCodeAlt
               className="skills-card-img"
               fontSize={"27px"}
-              color="rgb(106, 175, 228)"
+              color="var(--light-red)"
             />{" "}
             DSA
           </div>
         </li>
         <li className="skills-card">
           <div className="skills-card-name">
-            <TbBrandCpp
-              className="skills-card-img"
-              color="rgb(106, 175, 228)"
-            />{" "}
+            <TbBrandCpp className="skills-card-img" color="var(--light-red)" />{" "}
             C++
           </div>
         </li>
@@ -138,7 +134,7 @@ export const Skills = () => {
             {" "}
             <FaGitSquare
               className="skills-card-img"
-              color="rgb(106, 175, 228)"
+              color="var(--light-red)"
             />{" "}
             Git
           </div>
@@ -148,14 +144,14 @@ export const Skills = () => {
             <TbBrandVscode
               className="skills-card-img"
               fontSize={"25px"}
-              color="rgb(106, 175, 228)"
+              color="var(--light-red)"
             />{" "}
             VScode
           </div>
         </li>
         <li className="skills-card">
           <div className="skills-card-name">
-            <SiPostman className="skills-card-img" color="rgb(106, 175, 228)" />{" "}
+            <SiPostman className="skills-card-img" color="var(--light-red)" />{" "}
             Postman
           </div>
         </li>

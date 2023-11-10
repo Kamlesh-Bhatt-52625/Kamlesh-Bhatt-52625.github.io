@@ -43,7 +43,7 @@ export default function Projects() {
                   {project.techUsed.map((tech, index) => (
                     <li
                       style={{
-                        color: "rgb(243, 133, 133)",
+                        color: "var(--lighter-red)",
                         fontWeight: "bold",
                       }}
                       key={index}>

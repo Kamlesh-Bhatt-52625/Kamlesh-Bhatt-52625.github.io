@@ -22,7 +22,7 @@ export default function About() {
       </h1>
       <div>
         <div data-aos="fade-up" className=" first">
-          <p id="user-detail-intro">
+          <p id="user-detail-intro" style={{ wordSpacing: "4px" }}>
             Welcome to my coding realm, where I transform coffee into lines of
             code!{" "}
             <p style={{ display: "inline-block" }} className="sauce">

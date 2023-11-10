@@ -3,7 +3,7 @@ export default function getProjects() {
     {
       img: "",
       id: 1,
-      image: "bluemercury.png",
+      image: "bluemercuryclone.png",
       projectTitle: "Bluemercury Clone",
       projectInfo:
         "Bluemercury is an E-commerce company have domain around cosmetic's",
