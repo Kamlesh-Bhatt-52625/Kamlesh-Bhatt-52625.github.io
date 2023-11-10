@@ -1,19 +1,20 @@
 {
   "files": {
-    "main.css": "/static/css/main.2c5c27a1.css",
-    "main.js": "/static/js/main.e4244b74.js",
+    "main.css": "/static/css/main.a271e9da.css",
+    "main.js": "/static/js/main.bf0b5d26.js",
     "static/media/travel app.png": "/static/media/travel app.551f9e58777a4dce7559.png",
+    "static/media/bluemercuryclone.png": "/static/media/bluemercuryclone.b21f70ad64f554567c0b.png",
     "static/media/Travel Application.png": "/static/media/Travel Application.f0d827b6aa0b880eab8f.png",
     "static/media/Kamlesh_Bhatt_resume.pdf": "/static/media/Kamlesh_Bhatt_resume.96c3a5d2eef629577920.pdf",
     "static/media/Mine Wine.png": "/static/media/Mine Wine.5aca83b3b5699890d7e1.png",
     "static/media/rest3.png": "/static/media/rest3.747dc7cc0558b1d1427a.png",
     "static/media/bluemercury.png": "/static/media/bluemercury.988ed3204955ed449003.png",
     "index.html": "/index.html",
-    "main.2c5c27a1.css.map": "/static/css/main.2c5c27a1.css.map",
-    "main.e4244b74.js.map": "/static/js/main.e4244b74.js.map"
+    "main.a271e9da.css.map": "/static/css/main.a271e9da.css.map",
+    "main.bf0b5d26.js.map": "/static/js/main.bf0b5d26.js.map"
   },
   "entrypoints": [
-    "static/css/main.2c5c27a1.css",
-    "static/js/main.e4244b74.js"
+    "static/css/main.a271e9da.css",
+    "static/js/main.bf0b5d26.js"
   ]
 }
