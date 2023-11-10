@@ -46,6 +46,7 @@ export default function About() {
           rel="noreferrer"
           href={resume}
           download={"Kamlesh_Bhatt_resume.pdf"}
+          target="_blank"
           id="resume-button-2"
           className="contact-button resume-button second-btn">
           Resume

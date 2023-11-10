@@ -23,5 +23,16 @@ export default function getProjects() {
       projectLinkHosted: "https://mine-wine-polytechnic.netlify.app/",
       projectLinkGithub: "https://github.com/nikitaGupta2106/Online-Wine-Shop",
     },
+    {
+      img: "",
+      id: 3,
+      image: "travel app.png",
+      projectTitle: "Voyawander",
+      projectInfo: "It is a collabrative website made using React.js and Redux",
+      techUsed: ["React.js", "Redux", "CSS"],
+      projectLinkHosted: "",
+      projectLinkGithub:
+        "https://github.com/kuntalkumar/wanderLust/tree/main/wanderlust",
+    },
   ];
 }
