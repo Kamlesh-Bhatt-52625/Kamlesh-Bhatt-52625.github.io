@@ -43,7 +43,6 @@ export default function About() {
           <br />
         </div>
         <a
-          onClick={handleDownload}
           rel="noreferrer"
           href={resume}
           download={"Kamlesh_Bhatt_resume.pdf"}
