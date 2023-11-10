@@ -1,18 +1,19 @@
 {
   "files": {
     "main.css": "/static/css/main.2c5c27a1.css",
-    "main.js": "/static/js/main.7966c87a.js",
+    "main.js": "/static/js/main.e53838b3.js",
     "static/media/travel app.png": "/static/media/travel app.551f9e58777a4dce7559.png",
+    "static/media/Travel Application.png": "/static/media/Travel Application.18df76ad455f599854b4.png",
     "static/media/Kamlesh_Bhatt_resume.pdf": "/static/media/Kamlesh_Bhatt_resume.96c3a5d2eef629577920.pdf",
     "static/media/Mine Wine.png": "/static/media/Mine Wine.5aca83b3b5699890d7e1.png",
     "static/media/rest3.png": "/static/media/rest3.747dc7cc0558b1d1427a.png",
     "static/media/bluemercury.png": "/static/media/bluemercury.988ed3204955ed449003.png",
     "index.html": "/index.html",
     "main.2c5c27a1.css.map": "/static/css/main.2c5c27a1.css.map",
-    "main.7966c87a.js.map": "/static/js/main.7966c87a.js.map"
+    "main.e53838b3.js.map": "/static/js/main.e53838b3.js.map"
   },
   "entrypoints": [
     "static/css/main.2c5c27a1.css",
-    "static/js/main.7966c87a.js"
+    "static/js/main.e53838b3.js"
   ]
 }
