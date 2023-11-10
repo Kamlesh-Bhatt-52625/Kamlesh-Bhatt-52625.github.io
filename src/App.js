@@ -1,34 +1,42 @@
-import React, { useContext } from 'react';
-import { BrowserRouter as Router, Route, Switch, Redirect } from 'react-router-dom';
-
-import { ThemeContext } from './contexts/ThemeContext';
-import { Main, BlogPage, ProjectPage } from './pages'
-import { BackToTop } from './components'
-import ScrollToTop from './utils/ScrollToTop'
-
-import './App.css'
+import { useEffect, useState } from "react";
+import "./App.css";
+import Intro from "./components/Intro";
+import About from "./components/About";
+import Aos from "aos";
+import "aos/dist/aos.css";
+import Navbar from "./components/Navbar";
+import Projects from "./components/Project";
+import Contact from "./components/Contact";
+import Footer from "./components/Footer";
+import { Skills } from "./components/Skills";
+import { Github } from "./components/Github";
+import React from 'react';
 
 function App() {
-
-  const { theme } = useContext(ThemeContext);
-
-  console.log("%cDEVELOPER PORTFOLIO", `color:${theme.primary}; font-size:50px`);
-  console.log("%chttps://github.com/hhhrrrttt222111/developer-portfolio", `color:${theme.tertiary}; font-size:20px`);
-  // console.log = console.warn = console.error = () => {};
+  let [boolean, setBoolean] = useState(true);
+  function handleClick() {
+    setBoolean(!boolean);
+  }
+  
+  useEffect(() => {
+    Aos.init();
+    Aos.refresh();
+  }, []);
 
   return (
-    <div className="app">
-      <Router>
-        <ScrollToTop/>
-        <Switch>
-          <Route path="/" exact component={Main} />
-          <Route path="/blog" exact component={BlogPage} />
-          <Route path="/projects" exact component={ProjectPage} />
-
-          <Redirect to="/" />
-        </Switch>
-      </Router>
-      <BackToTop />
+    <div className="App">
+      <Navbar handleClick={handleClick} boolean={boolean} />
+      <Intro handleClick={handleClick} boolean={boolean} />
+      <div className="contain give-padding" onClick={() => {
+        if (boolean === false) handleClick();
+      }}>
+        <About />
+        <Skills />
+        <Projects />
+        <Github />
+        <Contact />
+      </div>
+      <Footer />
     </div>
   );
 }
