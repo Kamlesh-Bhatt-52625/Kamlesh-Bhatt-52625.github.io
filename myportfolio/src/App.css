@@ -1,6 +1,6 @@
 :root {
-  --black: rgb(119, 119, 119);
-  --light-red: rgb(21, 246, 73);
+  --black: rgb(243, 133, 133);
+  --light-red: rgb(106, 175, 228);
   --lighter-red:#f8e2dc;
   --brown-red:rgb(27, 25, 25);
   --font-small:20px;
@@ -282,7 +282,7 @@ ham i{
 .outer-circle {
   width: 415px;
   height: 415px;
-  background: rgba(0, 0, 0, 0.1);
+  background: rgba(230, 123, 123, 0.1);
   box-shadow: 0px 3px 4px rgb(77, 77, 77, 0.46);
   display: flex;
   justify-content: center;
