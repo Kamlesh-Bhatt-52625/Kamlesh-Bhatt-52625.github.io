@@ -19,17 +19,14 @@ const Hero = () => {
             Hi, I&apos;m <span className='text-[#915eff]'>Kamlesh Bhatt</span>
           </h1>
           <p className={`${styles.heroSubText} text-white-100`}>
-            🚀 Welcome to my digital space! I am a results-driven Full Stack Web
-            Developer with a passion for crafting seamless, user-centric
-            experiences.
-            <br className='sm:block hidden' /> With a strong foundation in both
-            front-end and back-end technologies, I bring to the table a
-            versatile skill set that empowers me to create robust and scalable
-            web applications.
+            🚀 Welcome! I&apos;m a results-driven Full Stack Web Developer,
+            <br className='sm:block hidden' />
+            specializing in crafting seamless, user-centric experiences. Let's
+            build something extraordinary together!
           </p>
         </div>
       </div>
-      
+
       <ComputersCanvas />
     </section>
   );
