@@ -38,6 +38,13 @@ export const navLinks = [
     id: "contact",
     title: "Contact",
   },
+  {
+    id: "resume",
+    fileName: "Kamlesh_Bhatt_resume.pdf",
+    originName: "Kamlesh_Bhatt_resume.pdf",
+    fileUrl: "../assets/Kamlesh_Bhatt_resume.pdf",
+    title: "Resume",
+  },
 ];
 
 const services = [

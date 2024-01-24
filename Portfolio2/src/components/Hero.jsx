@@ -1,9 +1,38 @@
-import React from 'react'
+import { motion } from "framer-motion";
+
+import { styles } from "../styles";
+import { ComputersCanvas } from "./canvas";
 
 const Hero = () => {
   return (
-    <div>Hero</div>
-  )
-}
+    <section className='relative w-full h-screen mx-auto'>
+      <div
+        className={`${styles.paddingX} absolute inset-0 top-[120px] max-w-7xl mx-auto flex flex-row items-start gap-5
+    `}>
+        <div className='flex flex-col justify-center itens-center mt-5'>
+          <div className='w-5 h-5 rounded-full bg-[#915eff]' />
+          <div className='w-1 sm:h-80 h-40 violet-gradient ml-2' />
+        </div>
 
-export default Hero
+        <div>
+          <h1 className={`${styles.heroHeadText} text-white`}>
+            Hi, I&apos;m <span className='text-[#915eff]'>Kamlesh Bhatt</span>
+          </h1>
+          <p className={`${styles.heroSubText} text-white-100`}>
+            🚀 Welcome to my digital space! I am a results-driven Full Stack Web
+            Developer with a passion for crafting seamless, user-centric
+            experiences.
+            <br className='sm:block hidden' /> With a strong foundation in both
+            front-end and back-end technologies, I bring to the table a
+            versatile skill set that empowers me to create robust and scalable
+            web applications.
+          </p>
+        </div>
+      </div>
+      
+      <ComputersCanvas />
+    </section>
+  );
+};
+
+export default Hero;
