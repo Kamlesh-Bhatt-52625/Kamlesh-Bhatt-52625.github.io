@@ -21,7 +21,7 @@ const ServiceCard = ({ index, title, icon }) => {
           <img
             src={icon}
             alt={title}
-            className='w-full rounded-[20px] object-contain'
+            className='w-full rounded-[20px] object-contain cursor-pointer'
           />
         ) : (
           <div
