@@ -15,15 +15,15 @@ import {
   git,
   figma,
   docker,
-  meta,
-  starbucks,
-  tesla,
-  shopify,
   carrent,
   jobit,
   tripguide,
   threejs,
 } from "../assets";
+
+import java from "../assets/tech/java.png";
+import cpp from "../assets/tech/cpp.png";
+import dsa from "../assets/tech/dsa.png";
 
 import unacademy from "../assets/company/unacademy.png";
 import masai from "../assets/company/masai.png";
@@ -123,8 +123,16 @@ const technologies = [
     icon: figma,
   },
   {
-    name: "docker",
-    icon: docker,
+    name: "C++",
+    icon: cpp,
+  },
+  {
+    name: "Java",
+    icon: java,
+  },
+  {
+    name: "DSA",
+    icon: dsa,
   },
 ];
 
