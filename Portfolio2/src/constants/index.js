@@ -4,7 +4,6 @@ import {
   creator,
   web,
   javascript,
-  typescript,
   html,
   css,
   reactjs,
@@ -14,15 +13,15 @@ import {
   mongodb,
   git,
   figma,
-  carrent,
   jobit,
   tripguide,
   threejs,
+  Mine_Wine,
 } from "../assets";
 
 import java from "../assets/tech/java.png";
 import cpp from "../assets/tech/cpp.png";
-import dsa from "../assets/tech/dsa.png";
+import bluemercury from "../assets/bluemercury.png";
 
 import unacademy from "../assets/company/unacademy.png";
 import masai from "../assets/company/masai.png";
@@ -189,67 +188,49 @@ const testimonials = [
 
 const projects = [
   {
-    name: "Car Rent",
+    name: "Bluemercury Clone",
     description:
-      "Web-based platform that allows users to search, book, and manage car rentals from various providers, providing a convenient and efficient solution for transportation needs.",
+      "Bluemercury is an E-commerce company have domain around cosmetic's",
     tags: [
       {
-        name: "react",
+        name: "HTML",
         color: "blue-text-gradient",
       },
       {
-        name: "mongodb",
+        name: "JS",
         color: "green-text-gradient",
       },
       {
-        name: "tailwind",
+        name: "CSS",
         color: "pink-text-gradient",
       },
     ],
-    image: carrent,
-    source_code_link: "https://github.com/",
+    image: bluemercury,
+    source_code_link:
+      "https://github.com/Kamlesh-Bhatt-52625/Bluemercury-Clone",
+    live_hosted_link: "https://bluemercury-clone-masai.netlify.app/",
   },
   {
-    name: "Job IT",
+    name: "Mine Wine",
     description:
-      "Web application that enables users to search for job openings, view estimated salary ranges for positions, and locate available jobs based on their current location.",
+      "Mine Wine is a collection of different types of wines from around the world.",
     tags: [
       {
-        name: "react",
+        name: "HTML",
         color: "blue-text-gradient",
       },
       {
-        name: "restapi",
+        name: "JS",
         color: "green-text-gradient",
       },
       {
-        name: "scss",
+        name: "CSS",
         color: "pink-text-gradient",
       },
     ],
-    image: jobit,
-    source_code_link: "https://github.com/",
-  },
-  {
-    name: "Trip Guide",
-    description:
-      "A comprehensive travel booking platform that allows users to book flights, hotels, and rental cars, and offers curated recommendations for popular destinations.",
-    tags: [
-      {
-        name: "nextjs",
-        color: "blue-text-gradient",
-      },
-      {
-        name: "supabase",
-        color: "green-text-gradient",
-      },
-      {
-        name: "css",
-        color: "pink-text-gradient",
-      },
-    ],
-    image: tripguide,
-    source_code_link: "https://github.com/",
+    image: Mine_Wine,
+    source_code_link: "https://github.com/nikitaGupta2106/Online-Wine-Shop",
+    live_hosted_link: "https://mine-wine-polytechnic.netlify.app/",
   },
 ];
 

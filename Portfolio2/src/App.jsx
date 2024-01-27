@@ -3,7 +3,6 @@ import {
   About,
   Contact,
   Experience,
-  Feedbacks,
   Hero,
   Navbar,
   Tech,
@@ -11,6 +10,7 @@ import {
   StarsCanvas,
 } from "./components";
 import Footer from "./components/Footer";
+import GithubStats from "./components/GithubStats";
 
 const App = () => {
   return (
@@ -25,6 +25,7 @@ const App = () => {
         <Tech />
         <Works />
         {/* <Feedbacks /> */}
+        <GithubStats/>
         <div className='relative z-0'>
           <Contact />
           <StarsCanvas />
