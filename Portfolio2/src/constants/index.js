@@ -143,7 +143,7 @@ const experiences = [
     company_name: "Masai",
     icon: masai,
     iconBg: "#E6DEDD",
-    date: "Nov 2023 - Feb 2023",
+    date: "Nov 2023 - Current",
     points: [
       "Developing and maintaining web applications using React.js and other related technologies.",
       "Collaborating with cross-functional teams including designers, product managers, and other developers to create high-quality products.",
