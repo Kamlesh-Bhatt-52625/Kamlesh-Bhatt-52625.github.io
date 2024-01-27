@@ -12,6 +12,16 @@ const styles = {
     "text-white font-black md:text-[60px] sm:text-[50px] xs:text-[40px] text-[30px]",
   sectionSubText:
     "sm:text-[18px] text-[14px] text-secondary uppercase tracking-wider",
+
+  // Footer styles
+  socialIcons:
+    "sm:text-[35px] sm:bottom-2.5 sm:fixed sm:block sm:m-10 relative list-none flex justify-around mt-0 mb-0 ml-auto mr-auto text-[30px]",
+
+  socialIcons_li:
+    "mt-atuo mb-auto ml-0 mr-0 transition-all duration-300 hover:mb-0 hover:scale-100",
+
+  contactEmail: 
+    "sm:block sm:fixed sm:bottom-[180px] sm:right-[-70px] sm:rotate-90 ",
 };
 
 export { styles };

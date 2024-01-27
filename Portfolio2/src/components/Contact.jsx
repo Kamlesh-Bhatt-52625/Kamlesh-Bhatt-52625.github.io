@@ -18,9 +18,49 @@ const Contact = () => {
 
   const [loading, setLoading] = useState(false);
 
-  const handleChange = (e) => {};
+  const handleChange = (e) => {
+    const { name, value } = e.target;
 
-  const handleSubmit = (e) => {};
+    setForm({ ...form, [name]: value });
+  };
+
+  const handleSubmit = (e) => {
+    e.preventDefault();
+    setLoading(true);
+
+    emailjs
+      .send(
+        "service_wyndhn9",
+        "template_fk16mhf",
+        {
+          from_name: form.name,
+          to_name: "Kamlesh Bhatt",
+          from_email: form.email,
+          to_email: "kamleshbhatt3103@gmail.com",
+          message: form.message,
+        },
+        "NFabW8hVCdZSiN4Md"
+      )
+      .then(
+        () => {
+          setLoading(false);
+          alert(`Thank you. I will get back to you as soon as possible.`);
+
+          setForm({
+            name: "",
+            email: "",
+            message: "",
+          });
+        },
+        (error) => {
+          setLoading(false);
+
+          console.log(error);
+
+          alert("Something went wrong.");
+        }
+      );
+  };
 
   return (
     <div
@@ -53,7 +93,7 @@ const Contact = () => {
             <span className='text-white-fon-medium mb-4'>Your Email</span>
             <input
               type='email'
-              name='Email'
+              name='email'
               value={form.email}
               onChange={handleChange}
               placeholder="What's your email?"

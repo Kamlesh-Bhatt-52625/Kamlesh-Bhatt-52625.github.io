@@ -21,7 +21,7 @@ const EarthCanvas = () => {
         far: 200,
         position: [-4, 3, 6],
       }}>
-      <Suspense>
+      <Suspense fallback={null}>
         <OrbitControls
           autoRotate
           enableZoom={false}
