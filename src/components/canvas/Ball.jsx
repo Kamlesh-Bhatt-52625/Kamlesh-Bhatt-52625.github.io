@@ -37,10 +37,10 @@ const Ball = (props) => {
 const BallCanvas = ({ icon }) => {
   return (
     <Canvas>
-      {/* <Suspense fallback={null}>
-        <OrbitControls enableZoom={false} /> */}
-      <Ball imgUrl={icon} />
-      {/* </Suspense> */}
+      <Suspense fallback={null}>
+        <OrbitControls enableZoom={false} />
+        <Ball imgUrl={icon} />
+      </Suspense>
       <Preload all />
     </Canvas>
   );

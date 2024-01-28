@@ -1,6 +1,7 @@
 import { BallCanvas } from "./canvas";
 import SectionWrapper from "../hoc/SectionWrapper";
 import { technologies } from "../constants";
+import { motion } from "framer-motion";
 
 const Tech = () => {
   return (
@@ -8,6 +9,13 @@ const Tech = () => {
       {technologies.map((technology) => (
         <div className='w-28 h-28' key={technology.name}>
           <BallCanvas icon={technology.icon} />
+          {/* <div>
+            <motion.div >
+                {technologies?.map((technology) => (
+
+                ))}
+            </motion.div>
+          </div> */}
         </div>
       ))}
     </div>
