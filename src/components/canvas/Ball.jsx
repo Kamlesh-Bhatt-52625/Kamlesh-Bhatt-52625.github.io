@@ -8,7 +8,6 @@ import {
   useTexture,
 } from "@react-three/drei";
 
-
 const Ball = (props) => {
   const [decal] = useTexture([props.imgUrl]);
 
@@ -38,11 +37,10 @@ const Ball = (props) => {
 const BallCanvas = ({ icon }) => {
   return (
     <Canvas frameloop='demand' gl={{ preserveDrawingBuffer: true }}>
-      <Suspense>
-        <OrbitControls enableZoom={false} />
-        <Ball imgUrl={icon} />
-      </Suspense>
-
+      {/* <Suspense fallback={null}>
+        <OrbitControls enableZoom={false} /> */}
+      <Ball imgUrl={icon} />
+      {/* </Suspense> */}
       <Preload all />
     </Canvas>
   );
