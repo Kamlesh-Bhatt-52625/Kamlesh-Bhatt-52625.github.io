@@ -25,6 +25,7 @@ import bluemercury from "../assets/bluemercury.png";
 
 import unacademy from "../assets/company/unacademy.png";
 import masai from "../assets/company/masai.png";
+import three from "../assets/tech/three.webp";
 
 export const navLinks = [
   {
@@ -138,10 +139,9 @@ const experiences = [
     iconBg: "#383E56",
     date: "Aug 2023 - Oct 2023",
     points: [
-      "Developing and maintaining web applications using React.js and other related technologies.",
-      "Collaborating with cross-functional teams including designers, product managers, and other developers to create high-quality products.",
-      "Implementing responsive design and ensuring cross-browser compatibility.",
-      "Participating in code reviews and providing constructive feedback to other developers.",
+      "Designed and developed appropriate curriculum for teaching HTML and CSS to children, ensuring a structured and engaging learning experience.",
+      "Tailored teaching approaches to address individual learning needs, ensuring each student's success in grasping fundamental Computer Applications principles.",
+      "Maintained open communication with students, providing regular updates on their progress, achievements, and areas for improvement.",
     ],
   },
   {
@@ -151,10 +151,9 @@ const experiences = [
     iconBg: "#E6DEDD",
     date: "Nov 2023 - Current",
     points: [
-      "Developing and maintaining web applications using React.js and other related technologies.",
-      "Collaborating with cross-functional teams including designers, product managers, and other developers to create high-quality products.",
-      "Implementing responsive design and ensuring cross-browser compatibility.",
-      "Participating in code reviews and providing constructive feedback to other developers.",
+      "Conducting comprehensive technical interviews in areas including Data Structures and Algorithms, Frontend technologies, and general technical rounds.",
+      "Evaluating candidates' technical proficiency, problem-solving abilities, and coding skills to assess their suitability for specific roles within the company.",
+      "Demonstrating strong communication skills in explaining technical concepts, problem statements, and coding challenges during interviews.",
     ],
   },
 ];
