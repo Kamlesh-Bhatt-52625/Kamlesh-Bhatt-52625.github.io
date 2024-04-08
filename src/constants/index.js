@@ -17,6 +17,7 @@ import {
   tripguide,
   threejs,
   Mine_Wine,
+  Bhatt_Estate,
 } from "../assets";
 
 import java from "../assets/tech/java.png";
@@ -230,6 +231,28 @@ const projects = [
     image: Mine_Wine,
     source_code_link: "https://github.com/nikitaGupta2106/Online-Wine-Shop",
     live_hosted_link: "https://mine-wine-polytechnic.netlify.app/",
+  },
+  {
+    name: "Bhatt Estate",
+    description:
+      "Built MERN real estate demo for streamlined property listings and user interaction.",
+    tags: [
+      {
+        name: "React.js",
+        color: "blue-text-gradient",
+      },
+      {
+        name: "Express",
+        color: "green-text-gradient",
+      },
+      {
+        name: "TailwindCSS",
+        color: "pink-text-gradient",
+      },
+    ],
+    image: Bhatt_Estate,
+    source_code_link: "https://github.com/Kamlesh-Bhatt-52625/mern-estate",
+    live_hosted_link: "https://bhatt-estate.onrender.com/",
   },
 ];
 

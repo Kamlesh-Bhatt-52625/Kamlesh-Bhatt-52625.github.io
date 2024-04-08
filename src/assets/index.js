@@ -30,7 +30,8 @@ import carrent from "./carrent.png";
 import jobit from "./jobit.png";
 import tripguide from "./tripguide.png";
 import live from "./live.png";
-import Mine_Wine from "./Mine Wine.png"
+import Mine_Wine from "./Mine Wine.png";
+import Bhatt_Estate from "./Bhatt Estate.png";
 
 export {
   logo,
@@ -62,5 +63,6 @@ export {
   jobit,
   tripguide,
   live,
-  Mine_Wine
+  Mine_Wine,
+  Bhatt_Estate,
 };
