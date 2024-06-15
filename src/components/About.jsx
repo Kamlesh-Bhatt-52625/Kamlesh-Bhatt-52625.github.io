@@ -57,17 +57,15 @@ const About = () => {
           variants={fadeIn("", "", 0.1, 1)}
           className="mt-4 text-secondary text-[17px] max-w-3xl leading-[30px]"
         >
-          Welcome to my coding realm, where I transform coffee into lines of
-          code! I&apos;m <span className="text-[#915eff]">Kamlesh Bhatt</span>,
-          a proficient full stack web developer. My expertise spans across
-          HTML5, CSS3, JavaScript, ReactJs, NodeJs, Express, and I&apos;m
-          well-versed in working with database technologies like MongoDB. My
-          true passion lies in crafting websites that not only boast impressive
-          aesthetics but also elicit exclamations of delight from users. I
-          strive for excellence and pay meticulous attention to detail, enabling
-          me to conquer even the most intricate coding challenges. When I&apos;m
-          not engrossed in coding, I love immersing myself in the latest tech
-          trends and exploring new possibilities in the digital world.
+          Welcome to my coding realm! I&apos;m{" "}
+          <span className="text-[#915eff]">Kamlesh Bhatt</span>, a proficient
+          full stack web developer passionate about transforming coffee into
+          code. My expertise includes HTML5, CSS3, JavaScript, ReactJs, NodeJs,
+          Express, MongoDB, and React Native. I craft websites and mobile apps
+          that not only look stunning but also provide an exceptional user
+          experience. I thrive on attention to detail and tackling complex
+          coding challenges. Outside of coding, I stay updated with the latest
+          tech trends and explore new digital possibilities.
         </motion.p>
         {/* <img
           src={dp}

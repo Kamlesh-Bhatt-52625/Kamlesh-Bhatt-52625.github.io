@@ -13,8 +13,6 @@ import {
   mongodb,
   git,
   figma,
-  jobit,
-  tripguide,
   threejs,
   Mine_Wine,
   Bhatt_Estate,
@@ -26,7 +24,7 @@ import bluemercury from "../assets/bluemercury.png";
 
 import unacademy from "../assets/company/unacademy.png";
 import masai from "../assets/company/masai.png";
-import three from "../assets/tech/three.webp";
+import monocept from "../assets/company/monocept.png";
 
 export const navLinks = [
   {
@@ -64,7 +62,7 @@ const services = [
     icon: web,
   },
   {
-    title: "React Developer",
+    title: "React Native Developer",
     icon: mobile,
   },
   {
@@ -111,6 +109,10 @@ const technologies = [
     icon: mongodb,
   },
   {
+    name: "React Native",
+    icon: reactjs,
+  },
+  {
     name: "Three JS",
     icon: threejs,
   },
@@ -140,9 +142,21 @@ const experiences = [
     iconBg: "#383E56",
     date: "Aug 2023 - Oct 2023",
     points: [
-      "Designed and developed appropriate curriculum for teaching HTML and CSS to children, ensuring a structured and engaging learning experience.",
-      "Tailored teaching approaches to address individual learning needs, ensuring each student's success in grasping fundamental Computer Applications principles.",
-      "Maintained open communication with students, providing regular updates on their progress, achievements, and areas for improvement.",
+      {
+        title: "Curriculum Design:",
+        value:
+          "Created and developed a structured, engaging curriculum for teaching HTML and CSS to children.",
+      },
+      {
+        title: "Personalized Teaching:",
+        value:
+          " Tailored teaching methods to meet individual learning needs, ensuring students grasped fundamental Computer Applications principles.",
+      },
+      {
+        title: "Student Communication:",
+        value:
+          "Maintained open communication, providing regular updates on students' progress, achievements, and areas for improvement.",
+      },
     ],
   },
   {
@@ -150,12 +164,32 @@ const experiences = [
     company_name: "Masai",
     icon: masai,
     iconBg: "#E6DEDD",
-    date: "Nov 2023 - Current",
+    date: "Nov 2023 - Apr 2023",
     points: [
-      "Conducting comprehensive technical interviews in areas including Data Structures and Algorithms, Frontend technologies, and general technical rounds.",
-      "Evaluating candidates' technical proficiency, problem-solving abilities, and coding skills to assess their suitability for specific roles within the company.",
-      "Demonstrating strong communication skills in explaining technical concepts, problem statements, and coding challenges during interviews.",
+      {
+        title: "Technical Interviews:",
+        value:
+          "Conducted comprehensive technical interviews covering Data Structures and Algorithms, Frontend technologies, and general technical rounds.",
+      },
+      {
+        title: "Candidate Evaluation:",
+        value:
+          "Assessed candidates' technical proficiency, problem-solving abilities, and coding skills to determine their suitability for specific roles.",
+      },
+      {
+        title: "Communication:",
+        value:
+          "Demonstrated strong communication skills by clearly explaining technical concepts, problem statements, and coding challenges during interviews.",
+      },
     ],
+  },
+  {
+    title: "Software Engineer",
+    company_name: "Monocept",
+    icon: monocept,
+    iconBg: "#383E56",
+    date: "Apr 2024 - Current",
+    points: [],
   },
 ];
 
