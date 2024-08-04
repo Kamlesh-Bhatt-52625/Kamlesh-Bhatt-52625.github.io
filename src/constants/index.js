@@ -49,9 +49,9 @@ export const navLinks = [
   },
   {
     id: "resume",
-    fileName: "Kamlesh_Bhatt_resume.pdf",
-    originName: "Kamlesh_Bhatt_resume.pdf",
-    fileUrl: "../assets/Kamlesh_Bhatt_resume.pdf",
+    fileName: "Kamlesh-Bhatt-Resume-Software-Engineer.pdf",
+    originName: "Kamlesh-Bhatt-Resume-Software-Engineer.pdf",
+    fileUrl: "../assets/Kamlesh-Bhatt-Resume.pdf",
     title: "Resume",
   },
 ];
