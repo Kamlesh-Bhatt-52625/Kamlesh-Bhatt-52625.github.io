@@ -59,13 +59,13 @@ const About = () => {
         >
           Welcome to my coding realm! I&apos;m{" "}
           <span className="text-[#915eff]">Kamlesh Bhatt</span>, a proficient
-          full stack web developer passionate about transforming coffee into
-          code. My expertise includes HTML5, CSS3, JavaScript, ReactJs, NodeJs,
-          Express, MongoDB, and React Native. I craft websites and mobile apps
-          that not only look stunning but also provide an exceptional user
-          experience. I thrive on attention to detail and tackling complex
-          coding challenges. Outside of coding, I stay updated with the latest
-          tech trends and explore new digital possibilities.
+          full stack web and app developer passionate about transforming coffee
+          into code. My expertise includes HTML5, CSS3, JavaScript, ReactJs,
+          NodeJs, Express, MongoDB, and React Native. I craft websites and
+          mobile apps that not only look stunning but also provide an
+          exceptional user experience. I thrive on attention to detail and
+          tackling complex coding challenges. Outside of coding, I stay updated
+          with the latest tech trends and explore new digital possibilities.
         </motion.p>
         {/* <img
           src={dp}

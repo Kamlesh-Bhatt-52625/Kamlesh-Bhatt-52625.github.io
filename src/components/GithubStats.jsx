@@ -20,7 +20,7 @@ const GithubStats = () => {
         <h2 className={styles.sectionHeadText}>Github Stats.</h2>
       </motion.div>
 
-      <section data-aos="fade-up" className="mt-3">
+      <section data-aos="fade-up" className="mt-3 overflow-hidden">
         <motion.div
           variants={fadeIn("left", "spring", 0.7, 1)}
           data-aos="fade-up"

@@ -189,7 +189,28 @@ const experiences = [
     icon: monocept,
     iconBg: "#383E56",
     date: "Apr 2024 - Current",
-    points: [],
+    points: [
+      {
+        title: "React Native Development:",
+        value:
+          "Developed and maintained dynamic mobile applications using React Native, JavaScript, and React.",
+      },
+      {
+        title: "UI/UX Quality Assurance:",
+        value:
+          "Ensured that the user interfaces and user experience of the software applications developed by me and the team met the expectations.",
+      },
+      {
+        title: "Test Driven Development:",
+        value:
+          "Wrote unit tests and integration tests using Jest to ensure code quality and functionality.",
+      },
+      {
+        title: "Rapid Technology Adaptation:",
+        value:
+          "Quickly adapted to new technologies, learning React Native to contribute to ongoing projects.",
+      },
+    ],
   },
 ];
 
