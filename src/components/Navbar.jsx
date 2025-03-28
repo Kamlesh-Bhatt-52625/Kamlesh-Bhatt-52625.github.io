@@ -6,7 +6,7 @@ import { navLinks } from "../constants";
 import { menu, close, logo } from "../assets";
 
 // Resume
-import resume from "../assets/Kamlesh-Bhatt-Resume.pdf";
+import resume from "../assets/Kamlesh_Software_Engineer-Resume.pdf";
 
 const Navbar = () => {
   const [active, setActive] = useState("");
